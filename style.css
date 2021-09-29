@@ -49,6 +49,12 @@ footer {
   margin: 1rem;
 }
 
+#bio #content {
+  border-style: double;
+  border-color: red;
+  padding-left: 5px;
+}
+
 #gallery {
   border: solid 1px black;
   clear: both;
@@ -65,8 +71,19 @@ footer {
   margin: auto;
 }
 
+#blog {
+  background-color: lightcyan;
+  padding: 10px;
+}
+
 .blog-post {
   margin: 1rem 4rem;
+  border: 1px solid cornflowerblue;
+  padding: 5px;
+}
+
+#register {
+  background-color: lightblue;
 }
 
 @media (max-width: 549px){
@@ -124,6 +141,7 @@ footer {
     border: 1px solid;
     padding: .5rem .5rem;
     border-radius: 25px;
+    background-color: lightyellow;
   }
 
   nav > .fa-bars {

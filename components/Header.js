@@ -1,5 +1,5 @@
-export default st => `
+export default (st) => `
 <header>
-  <h1>Example SPA: ${st.header}</h1>
+  <h1>Example SPA Aug. 2021: ${st.header}</h1>
 </header>
 `;

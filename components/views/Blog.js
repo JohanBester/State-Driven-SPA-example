@@ -1,10 +1,10 @@
 import { capitalize } from "lodash";
 
-export default st => {
+export default (st) => {
   console.log("piece of state", st);
   return `
 <section id="blog">
-  ${st.posts.map(post => formatBlogPost(post)).join("")}
+  ${st.posts.map((post) => formatBlogPost(post)).join("")}
 </section>
 `;
 };
